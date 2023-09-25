@@ -1,99 +1,97 @@
 :root {
-    --blue: #013CC6;
-    --bg-color: #F8F8F8;
-    --border: #DEE2E6;
-
+  --blue: #013cc6;
+  --bg-color: #f8f8f8;
+  --border: #dee2e6;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .search-box {
-    position: relative;
-    top: 0.5em;
+  position: relative;
+  top: 0.5em;
 }
 
 .logo {
-    color: var(--blue);
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: var(--blue);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-.side-bar-list>a {
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.32px;
+.side-bar-list > a {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.32px;
 }
 
 .right-portion {
-    background-color: var(--bg-color);
+  background-color: var(--bg-color);
 }
 
 .search-icon {
-    background-color: white;
-    border-right: none;
-    border-radius: 4px;
+  background-color: white;
+  border-right: none;
+  border-radius: 4px;
 }
 
 .search-bar {
-    border-left: none;
-    border-radius: 4px;
-    color: #ADA7A7;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  border-left: none;
+  border-radius: 4px;
+  color: #ada7a7;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .search-bar:focus {
-    box-shadow: none !important;
-    border-color: var(--border) !important;
+  box-shadow: none !important;
+  border-color: var(--border) !important;
 }
 
 .input-label {
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .inp-placeholder {
-    font-size: 0.9rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    height: 3.125em;
- 
-    border-radius: 4px;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  height: 3.125em;
+
+  border-radius: 4px;
 }
 
 .spaced-table {
-    background-color: white;
-    border-collapse: separate;
-    border-spacing: 0 0;
-    border-radius: 4px;
-    margin-bottom: 40px;
+  background-color: white;
+  border-collapse: separate;
+  border-spacing: 0 0;
+  border-radius: 4px;
+  margin-bottom: 40px;
 }
 
 .spaced-table th,
 .spaced-table td {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #000;
-    border-color: var(--border);
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #000;
+  border-color: var(--border);
 }
 
-.sidebar-icon{
-    margin-right: 10px;
+.sidebar-icon {
+  margin-right: 10px;
 }
 
-.active-line{
-    position: relative;
-    right: 2.5em;
-
+.active-line {
+  position: relative;
+  right: 2.5em;
 }

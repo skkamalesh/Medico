@@ -1,10 +1,8 @@
-import React from "react"
-import Sidebar from "./components/Sidebar"
-import Dashboard from "./components/Dashboard"
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import Dashboard from "./components/Dashboard";
 
 function App() {
-
-
   return (
     <>
       <div className="d-flex flex-nowrap" id="wrapper">
@@ -12,7 +10,7 @@ function App() {
         <Dashboard />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
