@@ -15,7 +15,7 @@ const Sidebardata = [
   },
   {
     menu: "Appointment",
-    activeline: /Blue Line.svg",
+    activeline: "/Blue Line.svg",
     img: "/Appointment.svg",
     activimg: "/Appointment Blue Line.svg",
     isActive: false,
