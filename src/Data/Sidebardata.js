@@ -1,15 +1,15 @@
 const Sidebardata = [
   {
     menu: "Dashboard",
-    activeline: "/dist/Blue Line.svg",
-    img: "/dist/Dashboard.svg",
-    activimg: "/dist/Dashboard Icon.svg",
+    activeline: "/Blue Line.svg",
+    img: "/Dashboard.svg",
+    activimg: "/Dashboard Icon.svg",
     isActive: true,
   },
   {
     menu: "Lab Test",
     activeline: "/Blue Line.svg",
-    img: "/dist/Lab Icon.svg",
+    img: "/Lab Icon.svg",
     activimg: "/Lab Blue Line.svg",
     isActive: false,
   },
