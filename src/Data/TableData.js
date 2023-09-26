@@ -56,7 +56,7 @@ const TableData = [
     PaidAmount: "100",
   },
   {
-    InvoiceID: "#AHGA668",
+    InvoiceID: "#AHGA68",
     Date: "23/09/2022",
     Customer: "Jacob Marcus",
     PayableAmount: "100",
