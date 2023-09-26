@@ -1,7 +1,7 @@
 :root {
-  --blue: #013cc6;
+  --blue: #004cff;
   --bg-color: #f8f8f8;
-  --border: #dee2e6;
+  --border: #dde3e9;
 }
 
 body {
@@ -17,16 +17,16 @@ body {
   color: var(--blue);
   font-size: 1.5rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 550;
   line-height: normal;
 }
 
 .side-bar-list > a {
-  font-size: 1rem;
+  font-size: 1.041rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 450;
   line-height: normal;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.36px;
 }
 
 .right-portion {
@@ -41,11 +41,11 @@ body {
 
 .search-bar {
   border-left: none;
-  border-radius: 4px;
-  color: #ada7a7;
-  font-size: 1rem;
+  border-radius: 5px;
+  color: #aca5a5;
+  font-size: 1.2rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 450;
   line-height: normal;
 }
 
@@ -55,20 +55,19 @@ body {
 }
 
 .input-label {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 450;
   line-height: normal;
 }
 
 .inp-placeholder {
   font-size: 0.9rem;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 350;
   line-height: normal;
-  height: 3.125em;
-
-  border-radius: 4px;
+  height: 3.155em;
+  border-radius: 5px;
 }
 
 .spaced-table {
@@ -81,8 +80,8 @@ body {
 
 .spaced-table th,
 .spaced-table td {
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
   border-bottom: 1px solid #000;
   border-color: var(--border);
 }
